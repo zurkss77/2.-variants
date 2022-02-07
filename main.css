@@ -1,0 +1,33 @@
+table { 
+  box-shadow: 0 0 10px rgb(25, 180, 228);
+  border-collapse: collapse;
+  font-family: 'quicksand', sans-serif;
+  overflow: hidden;
+  font-weight: bold;
+}
+
+.table thead th { 
+  background: #009578;
+  color: white
+}
+
+.table td,
+.table th { 
+  padding: 10px 20px;
+}
+
+
+.table tbody tr:nth-of-type(even) { 
+  background-color: white;
+
+}
+
+.table tbody tr:last-of-type { 
+  border-bottom: 2px solid #009578;
+}
+
+.tabula{
+  background-color:lightgray;
+  border-radius:3%;
+  
+}
